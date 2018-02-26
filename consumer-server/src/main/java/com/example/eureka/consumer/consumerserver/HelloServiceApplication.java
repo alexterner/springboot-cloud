@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class ConsumerServerApplication {
+public class HelloServiceApplication {
 
 
 	@Bean
@@ -20,6 +20,6 @@ public class ConsumerServerApplication {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumerServerApplication.class, args);
+		SpringApplication.run(HelloServiceApplication.class, args);
 	}
 }

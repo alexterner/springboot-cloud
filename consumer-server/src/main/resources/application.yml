@@ -9,7 +9,7 @@ eureka:
     health-check-url-path: /health
 spring:
   application:
-    name: task-app
+    name: hello-service
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
